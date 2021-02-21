@@ -23,13 +23,13 @@ new Koa()
 			latest_block_number: await gasOracle.getLatestBlockNumber(),
 		}
 		for (let i = 1; i <= 4; ++i) {
-			context.body[`percentile_${i}`] = `${await gasOracle.getPercentile(i) / 10**9} nanoeth`;
+			context.body[`percentile_${i}`] = `${await gasOracle.getPercentile(i) / 10**9} gwei`;
 		}
 		for (let i = 5; i <= 95; i+=5) {
-			context.body[`percentile_${i}`] = `${await gasOracle.getPercentile(i) / 10**9} nanoeth`;
+			context.body[`percentile_${i}`] = `${await gasOracle.getPercentile(i) / 10**9} gwei`;
 		}
 		for (let i = 96; i <= 100; ++i) {
-			context.body[`percentile_${i}`] = `${await gasOracle.getPercentile(i) / 10**9} nanoeth`;
+			context.body[`percentile_${i}`] = `${await gasOracle.getPercentile(i) / 10**9} gwei`;
 		}
 	})
 	.listen(80);
