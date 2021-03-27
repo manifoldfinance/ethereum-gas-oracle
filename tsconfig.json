@@ -1,18 +1,16 @@
 {
-	"compilerOptions": {
-		"baseUrl": ".",
-		"target": "es2017",
-		"module": "commonjs",
-		"sourceMap": true,
-		"outDir": "output",
-		"rootDir": "source",
-		"paths": {
-			"*": [
-				"./typings/*"
-			]
-		},
-		"strict": true,
-		"experimentalDecorators": true,
-		"alwaysStrict": true
-	}
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2017",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "output",
+    "rootDir": "source",
+    "paths": {
+      "*": ["./typings/*"]
+    },
+    "strict": true,
+    "experimentalDecorators": true,
+    "alwaysStrict": true
+  }
 }

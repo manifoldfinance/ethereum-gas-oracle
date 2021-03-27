@@ -1,8 +1,11 @@
 .vscode/
 .github/
 .git/
+output/
 .editorconfig
 .eslintrc
 .prettierrc
 .DS_Store
+typings/
+source/
 
