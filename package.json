@@ -4,11 +4,11 @@
   "license": "Unlicense",
   "main": "index.js",
   "scripts": {
-   "run:setup": "export $(cat .env | xargs)",
-   "build": "npx tsc -b",
-   "prod": "pm2 start",
-   "env": "export $(cat .env | xargs)"
-},
+    "run:setup": "export $(cat .env | xargs)",
+    "build": "npx tsc -b",
+    "prod": "pm2 start",
+    "env": "export $(cat .env | xargs)"
+  },
   "dependencies": {
     "@alch/alchemy-web3": "^1.0.0",
     "@types/collections": "5.0.0",
