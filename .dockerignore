@@ -1,3 +1,4 @@
+Dockerfile
 .vscode/
 .github/
 .git/
@@ -5,4 +6,6 @@
 .eslintrc
 .prettierrc
 .DS_Store
-
+node_modules
+build.sh
+run.sh
