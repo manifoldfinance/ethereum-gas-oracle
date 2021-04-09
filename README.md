@@ -3,10 +3,14 @@ Simple little web server that responds to GET requests with the percent of block
 
 ## Build
 ```bash
-docker image build -t zoltu/ethereum-gas-oracle .
+docker image build -t manifoldfinance/ethereum-gas-oracle .
 ```
 
 ## Run
 ```bash
-docker container run -p 1234:80 -e ETHEREUM_URL=http://localhost:8545 zoltu/ethereum-gas-oracle
+docker container run -p 1234:80 -e ETHEREUM_URL=http://localhost:8545 manifoldfinance/ethereum-gas-oracle
 ```
+
+## License 
+
+CC0-1.0
