@@ -1,7 +1,8 @@
-## What
-Simple little web server that responds to GET requests with the percent of blocks (out of the last 200) a particular gas price would have gotten you into.
+## [api.txprice.com](https://api.txprice.com)
 
-## Build
+Simple API for GET requests that respond with the percent of blocks (out of the last 200) a particular gas price would have gotten you into.
+
+## Development
 ```bash
 docker image build -t manifoldfinance/ethereum-gas-oracle .
 ```
